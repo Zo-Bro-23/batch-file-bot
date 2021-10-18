@@ -1,0 +1,27 @@
+{
+    "commands": [
+        {
+            "type": "message",
+            "trigger": "!run",
+            "replies": {
+                "replyOnSpawn": "Running simple batch script! Reply to this message to get an echo!",
+                "replyOnFinish": "",
+                "replyOnError": "Error: {{$error}}",
+                "replyOnStderr": "{{$stderr}}",
+                "replyOnStdout": "{{$stdout}}",
+                "replyToStdin": [
+                    "SPAWN",
+                    "STDOUT"
+                ]
+            },
+            "preventFromSimultaneousExecution": true,
+            "filter": {
+                "type": "none",
+                "users": [
+                    "xxxxxxxxxxxxxxxxxx"
+                ]
+            },
+            "batchFile": "D:\\Documents\\My Stuff\\Fiverr\\batch-file-bot\\{{$username}}-run.bat"
+        }
+    ]
+}
