@@ -21,7 +21,7 @@ Now create a file called ```cred.json``` in the same folder as the other files (
 
 All done? Great! Now edit the options.json to configure your batch files! Here is the syntax:
 
-```
+```javascript
 {
     "commands": [ // array of all commands
         {
