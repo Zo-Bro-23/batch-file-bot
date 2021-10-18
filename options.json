@@ -21,7 +21,7 @@
                     "xxxxxxxxxxxxxxxxxx"
                 ]
             },
-            "batchFile": "D:\\Documents\\My Stuff\\Fiverr\\batch-file-bot\\{{$username}}-run.bat"
+            "batchFile": "D:\\Documents\\My Stuff\\batch-file-bot\\{{$userId}}-run.bat"
         }
     ]
 }
